@@ -28,11 +28,11 @@ variable "aws_secret_key" {
 
 variable "aws_region" {
   type    = "string"
-  default = "us-west-1"
+  default = "us-west-1":
 }
 
 variable "instance_cnt" {
-  default = "1"
+  default = "3"
 }
 
 variable "command" {
