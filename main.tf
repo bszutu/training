@@ -32,7 +32,7 @@ variable "aws_region" {
 }
 
 variable "instance_cnt" {
-  default = "5"
+  default = "4"
 }
 
 variable "command" {
