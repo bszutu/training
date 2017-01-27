@@ -1,0 +1,25 @@
+#
+# DO NOT DELETE THESE LINES!
+#
+# Your subnet ID is:
+#
+#     subnet-7e50c21a
+#
+# Your security group ID is:
+#
+#     sg-29ef374e
+#
+# Your AMI ID is:
+#
+#     ami-30217250
+#
+# Your Identity is:
+#
+#     autodesk-chicken
+#
+
+provider "aws" {
+  access_key = "AKIAJDF2B64MAE3PPJQA"
+  secret_key = "uyZVeZRaqoXmzsYLqen8hBtrG/wDsFRe8uvdCe0m"
+  region     = "us-west-1"
+}
