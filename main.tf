@@ -57,7 +57,7 @@ resource "aws_instance" "web" {
   instance_type          = "t2.micro"
   subnet_id              = "subnet-7e50c21a"
   vpc_security_group_ids = ["sg-29ef374e"]
-  count = "2"
+  count = "${var.instance_cnt}"
   tags {
     Identity = "autodesk-chicken"
     server   = "web"
